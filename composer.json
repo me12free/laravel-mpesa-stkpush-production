@@ -26,5 +26,11 @@
     "support": {
         "issues": "https://github.com/me12free/laravel-mpesa-stkpush-production/issues",
         "source": "https://github.com/me12free/laravel-mpesa-stkpush-production"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/me12free/laravel-mpesa-stkpush-production.git"
+        }
+    ]
 }
