@@ -1,7 +1,15 @@
 # Mpesa Laravel STK Push Premium
 
-[![CI](https://github.com/me12free/laravel-mpesa-stkpush-production/actions/workflows/ci.yml/badge.svg)](https://github.com/me12free/laravel-mpesa-stkpush-production/actions)
 [![Sponsor](https://img.shields.io/badge/sponsor-❤-brightgreen)](https://buymeacoffee.com/johnekiru7v)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/me12free/laravel-mpesa-stkpush-production?style=social)](https://github.com/me12free/laravel-mpesa-stkpush-production/stargazers)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support%20me-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/johnekiru7v)
+
+---
+
+**README** | **Tests** | **License: MIT** | [Buy Me a Coffee](https://buymeacoffee.com/johnekiru7v) | [GitHub stars](https://github.com/me12free/laravel-mpesa-stkpush-production/stargazers)
+
+---
 
 A premium Laravel package for secure, production-ready M-Pesa STK Push integration.
 
