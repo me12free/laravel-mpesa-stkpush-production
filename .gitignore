@@ -1,0 +1,8 @@
+# Ignore all files in this package by default
+*
+# But do not ignore these files...
+!.gitignore
+!composer.json
+!README.md
+!config/
+!src/
