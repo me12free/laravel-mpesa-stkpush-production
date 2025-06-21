@@ -1,32 +1,37 @@
-# Ignore everything by default
-*
+# Ignore only files and folders that should NOT be tracked
 
-# But do not ignore these files/folders (they will be tracked)
-!.gitignore
-!composer.json
-!README.md
-!LICENSE
-!phpunit.xml
-!CHANGELOG.md
-!CODE_OF_CONDUCT.md
-!CONTRIBUTING.md
+# Node modules, vendor, environment, IDE, and OS files
+node_modules/
+vendor/
+.env
+.env.*
+.phpunit.result.cache
+.phpunit.cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.lock
+composer.lock
 
-# Package source and config
-!config/
-!src/
-!resources/
-!routes/
-!database/
-!lang/
-!public/
-!tests/
+# Coverage and build artifacts
+coverage/
+dist/
+build/
 
-# Allow all files inside these folders
-!config/**
-!src/**
-!resources/**
-!routes/**
-!database/**
-!lang/**
-!public/**
-!tests/**
+# Ignore test output
+/test-output/
+
+# Ignore OS junk files
+*.~
+
+# Ignore user-specific files
+*.local
+*.secret
+
+# Ignore any other sensitive or temporary files here
