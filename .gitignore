@@ -1,9 +1,17 @@
-# Ignore all files in this package by default
+# Ignore everything by default
 *
-# But do not ignore these files...
+
+# But do not ignore these files/folders (they will be tracked)
 !.gitignore
 !composer.json
 !README.md
+!LICENSE
+!phpunit.xml
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+
+# Package source and config
 !config/
 !src/
 !resources/
@@ -11,3 +19,14 @@
 !database/
 !lang/
 !public/
+!tests/
+
+# Allow all files inside these folders
+!config/**
+!src/**
+!resources/**
+!routes/**
+!database/**
+!lang/**
+!public/**
+!tests/**
