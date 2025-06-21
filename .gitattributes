@@ -1,0 +1,7 @@
+* text=auto
+*.php linguist-language=PHP
+*.md  linguist-language=Markdown
+*.js  linguist-language=JavaScript
+*.css linguist-language=CSS
+*.json linguist-language=JSON
+*.neon linguist-language=YAML
