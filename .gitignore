@@ -6,3 +6,8 @@
 !README.md
 !config/
 !src/
+!resources/
+!routes/
+!database/
+!lang/
+!public/
